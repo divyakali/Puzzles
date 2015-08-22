@@ -15,6 +15,7 @@ public class ListNode {
 	 * @param data
 	 */
 	public ListNode(int data) {
+		this.data =data;
 	}
 
 	/**
