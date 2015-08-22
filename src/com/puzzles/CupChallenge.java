@@ -70,7 +70,7 @@ public class CupChallenge {
 
 	public static void main(String[] args) {
 		// Let's solve the cup challenge
-		ListNode tailofCircle = constructCircularList(5);
+		ListNode tailofCircle = constructCircularList(100);
 		int cupNumber = solvePuzzle(tailofCircle);
 		System.out.println("The last cup that remains is:" + cupNumber);
 	}
